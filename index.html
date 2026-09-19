@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công ty Điện Nước AZ | Thi Công Điện Nước & Điện Lạnh TP.HCM</title>
+    <meta name="description" content="Công ty Cổ phần Điện Nước AZ — Thi công điện, nước, điện lạnh; cung cấp vật tư chính hãng tại TP.HCM. Hotline: 0908365718">
+    <meta name="keywords" content="thi công điện nước, sửa chữa điện lạnh, lắp đặt điều hòa, cung cấp vật tư điện nước, Bình Chánh, TP.HCM">
+    <meta name="author" content="Điện Nước AZ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif;}
+        :root {--xanh:#0b5ed7; --cam:#ff6b00; --xanhdam:#0a4cad; --xam:#f5f7fa;}
+        body {line-height:1.6; color:#333;}
+        .container {max-width:1200px; margin:0 auto; padding:0 20px;}
+        
+        /* Đầu trang */
+        .top-bar {background:#222; color:#fff; padding:8px 0; font-size:14px;}
+        .top-bar .flex {display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;}
+        .top-bar a {color:#ffd700; text-decoration:none;}
+        
+        header {background:#fff; box-shadow:0 2px 10px rgba(0,0,0,.1); position:sticky; top:0; z-index:99;}
+        .nav-wrap {display:flex; justify-content:space-between; align-items:center; padding:15px 0;}
+        .logo {font-size:24px; font-weight:700; color:var(--xanh); text-decoration:none;}
+        .logo span {color:var(--cam);}
+        nav ul {display:flex; list-style:none; gap:25px;}
+        nav a {text-decoration:none; color:#333; font-weight:500; transition:.3s;}
+        nav a:hover {color:var(--cam);}
+        .btn-hotline {background:var(--cam); color:#fff; padding:10px 20px; border-radius:50px; font-weight:bold; text-decoration:none;}
+        .btn-hotline:hover {background:#e65c00;}
+        
+        /* Banner chính */
+        .hero {background:linear-gradient(rgba(10,76,173,.9), rgba(10,76,173,.7)), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200') center/cover; color:#fff; padding:100px 0; text-align:center;}
+        .hero h1 {font-size:42px; margin-bottom:20px; line-height:1.2;}
+        .hero p {font-size:20px; margin-bottom:30px; max-width:700px; margin-left:auto; margin-right:auto;}
+        .btn-primary {display:inline-block; background:var(--cam); color:#fff; padding:15px 35px; border-radius:8px; font-size:18px; font-weight:bold; text-decoration:none; margin:5px; transition:.3s;}
+        .btn-primary:hover {transform:translateY(-3px); box-shadow:0 5px 15px rgba(255,107,0,.4);}
+        .btn-secondary {background:#fff; color:var(--xanh);}
+        
+        /* Phần chung */
+        section {padding:60px 0;}
+        h2 {font-size:32px; text-align:center; margin-bottom:50px; color:#222; position:relative;}
+        h2:after {content:''; width:60px; height:4px; background:var(--cam); position:absolute; bottom:-10px; left:50%; transform:translateX(-50%);}
+        
+        /* Dịch vụ */
+        .dichvu-grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:30px;}
+        .dichvu-card {background:#fff; border-radius:12px; padding:30px; box-shadow:0 5px 20px rgba(0,0,0,.08); transition:.3s;}
+        .dichvu-card:hover {transform:translateY(-8px); box-shadow:0 8px 25px rgba(0,0,0,.12);}
+        .dichvu-card i {font-size:48px; color:var(--xanh); margin-bottom:20px;}
+        .dichvu-card h3 {font-size:22px; margin-bottom:15px; color:#222;}
+        
+        /* Liên hệ */
+        .lienhe-box {background:var(--xam); border-radius:12px; padding:40px;}
+        .lienhe-item {display:flex; align-items:center; gap:15px; margin-bottom:20px; font-size:18px;}
+        .lienhe-item i {font-size:24px; color:var(--cam); min-width:30px; text-align:center;}
+        
+        /* Chân trang */
+        footer {background:#222; color:#fff; padding:40px 0 20px; text-align:center;}
+        footer p {margin-bottom:10px; color:#aaa;}
+        
+        /* Responsive */
+        @media(max-width:768px){
+            nav {display:none;}
+            .hero h1 {font-size:28px;}
+            .top-bar .flex {justify-content:center;}
+        }
+    </style>
+</head>
+<body>
+
+<!-- Thanh thông tin trên cùng -->
+<div class="top-bar">
+    <div class="container flex">
+        <div>📍 C20/5A3 Liên ấp 2-3-4, Bình Chánh, TP.HCM</div>
+        <div>📞 Hotline: <a href="tel:0908365718">0908 365 718</a> | ✉️ diennuocaz@gmail.com</div>
+    </div>
+</div>
+
+<!-- Đầu trang chính -->
+<header>
+    <div class="container nav-wrap">
+        <a href="#" class="logo">Điện Nước <span>AZ</span></a>
+        <nav>
+            <ul>
+                <li><a href="#trangchu">Trang Chủ</a></li>
+                <li><a href="#dichvu">Dịch Vụ</a></li>
+                <li><a href="#gia">Bảng Giá</a></li>
+                <li><a href="#lienhe">Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <a href="tel:0908365718" class="btn-hotline">📞 Gọi Ngay</a>
+    </div>
+</header>
+
+<!-- Banner chính -->
+<section class="hero" id="trangchu">
+    <div class="container">
+        <h1>CÔNG TY CỔ PHẦN ĐIỆN NƯỚC AZ</h1>
+        <p>Thi công & Sửa chữa Điện — Nước — Điện Lạnh ✅ Cung cấp vật tư chính hãng ✅ Bảo hành dài hạn ✅ Phục vụ toàn TP.HCM</p>
+        <a href="tel:0908365718" class="btn-primary">📞 0908 365 718</a>
+        <a href="#lienhe" class="btn-primary btn-secondary">📝 Nhận Báo Giá Miễn Phí</a>
+    </div>
+</section>
+
+<!-- Dịch vụ chính -->
+<section id="dichvu">
+    <div class="container">
+        <h2>Dịch Vụ Cung Cấp</h2>
+        <div class="dichvu-grid">
+            <div class="dichvu-card">
+                <i class="fas fa-bolt"></i>
+                <h3>⚡ Thi Công & Sửa Chữa Điện</h3>
+                <p>Lắp đặt hệ thống điện nhà ở, chung cư, công trình; sửa chữa sự cố, nâng cấp bảng điện, chiếu sáng chuyên nghiệp.</p>
+            </div>
+            <div class="dichvu-card">
+                <i class="fas fa-tint"></i>
+                <h3>💧 Thi Công & Sửa Chữa Nước</h3>
+                <p>Lắp đặt hệ thống cấp thoát nước, thiết bị vệ sinh; xử lý rò rỉ, tắc nghẽn, nâng cấp hệ thống nước chung cư cao cấp.</p>
+            </div>
+            <div class="dichvu-card">
+                <i class="fas fa-snowflake"></i>
+                <h3>❄️ Thi Công & Sửa Chữa Điện Lạnh</h3>
+                <p>Lắp đặt, di chuyển, bảo trì, sửa chữa điều hòa, tủ lạnh, máy giặt; hệ thống thông gió — làm mát toàn diện.</p>
+            </div>
+            <div class="dichvu-card">
+                <i class="fas fa-boxes"></i>
+                <h3>📦 Cung Cấp Vật Tư Điện - Nước - Điện Lạnh</h3>
+                <p>Cung cấp dây cáp, ống nước, thiết bị vệ sinh, máy điều hòa, phụ kiện điện lạnh — hàng chính hãng, giá tốt nhất thị trường.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bảng giá tham khảo -->
+<section id="gia" style="background:var(--xam);">
+    <div class="container">
+        <h2>Bảng Giá Tham Khảo</h2>
+        <div style="overflow-x:auto;">
+            <table style="width:100%; border-collapse:collapse; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 5px 15px rgba(0,0,0,.05);">
+                <tr style="background:var(--xanh); color:#fff;">
+                    <th style="padding:15px; text-align:left;">Dịch vụ</th>
+                    <th style="padding:15px; text-align:center;">Đơn vị tính</th>
+                    <th style="padding:15px; text-align:right;">Đơn giá tham khảo</th>
+                </tr>
+                <tr style="border-bottom:1px solid #eee;">
+                    <td style="padding:12px;">Thi công điện chung cư cao cấp</td>
+                    <td style="padding:12px; text-align:center;">m² sàn</td>
+                    <td style="padding:12px; text-align:right;">Từ 250.000đ</td>
+                </tr>
+                <tr style="border-bottom:1px solid #eee;">
+                    <td style="padding:12px;">Thi công nước chung cư cao cấp</td>
+                    <td style="padding:12px; text-align:center;">m² sàn</td>
+                    <td style="padding:12px; text-align:right;">Từ 200.000đ</td>
+                </tr>
+                <tr style="border-bottom:1px solid #eee;">
+                    <td style="padding:12px;">Lắp đặt thiết bị vệ sinh</td>
+                    <td style="padding:12px; text-align:center;">bộ/chiếc</td>
+                    <td style="padding:12px; text-align:right;">Từ 150.000đ</td>
+                </tr>
+                <tr>
+                    <td style="padding:12px;">Lắp đặt & sửa chữa điện lạnh</td>
+                    <td style="padding:12px; text-align:center;">chiếc</td>
+                    <td style="padding:12px; text-align:right;">Liên hệ báo giá</td>
+                </tr>
+            </table>
+        </div>
+        <p style="text-align:center; margin-top:20px; color:#666;">📌 *Giá thay đổi theo quy mô & yêu cầu chi tiết — Gọi để nhận báo giá chính xác miễn phí!*</p>
+    </div>
+</section>
+
+<!-- Liên hệ -->
+<section id="lienhe">
+    <div class="container">
+        <h2>Liên Hệ Chúng Tôi</h2>
+        <div class="lienhe-box">
+            <div class="lienhe-item">
+                <i class="fas fa-building"></i>
+                <div><strong>Công ty Cổ phần Điện Nước AZ</strong></div>
+            </div>
+            <div class="lienhe-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>C20/5A3 Liên ấp 2-3-4, Huyện Bình Chánh, TP. Hồ Chí Minh</div>
+            </div>
+            <div class="lienhe-item">
+                <i class="fas fa-phone-alt"></i>
+                <div>Hotline: <strong style="font-size:22px; color:var(--cam);">0908 365 718</strong> (Zalo cùng số)</div>
+            </div>
+            <div class="lienhe-item">
+                <i class="fas fa-clock"></i>
+                <div>Làm việc: Thứ 2 – Chủ Nhật | 7:00 – 21:00 (Bao gồm ngày lễ)</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Chân trang -->
+<footer>
+    <div class="container">
+        <p><strong>© 2026 Điện Nước AZ — Điện | Nước | Điện Lạnh</strong></p>
+        <p>Website tối ưu cho thiết bị di động & Tìm kiếm Google</p>
+    </div>
+</footer>
+
+</body>
+</html>
